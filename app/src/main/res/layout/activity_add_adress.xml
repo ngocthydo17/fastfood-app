@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/add_address_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FA2525"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+            <ImageButton
+                android:id="@+id/icbackk"
+                android:background="#FA2525"
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_back" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm địa chỉ mới"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout4"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:hint="Địa chỉ nhà">
+
+            <EditText
+                android:id="@+id/ad_address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout5"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Thành phố">
+
+            <EditText
+                android:id="@+id/ad_city"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/ad_add_address"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#FA2525"
+            android:text="Thêm địa chỉ"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:id="@+id/textInputLayout3"-->
+    <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="64dp"-->
+    <!--        android:layout_marginTop="40dp"-->
+    <!--        android:hint="Name"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView8">-->
+
+
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:id="@+id/textInputLayout6"-->
+    <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="64dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:hint="Postal Code"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5">-->
+
+
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="64dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:hint="Phone Number"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textInputLayout6">-->
+
+
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+</LinearLayout>

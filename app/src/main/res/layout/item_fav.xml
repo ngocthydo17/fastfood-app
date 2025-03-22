@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="165dp"
+    android:layout_height="235dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="40dp"
+    android:backgroundTint="#EFEFEF"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imvFav"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="-35dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_background"/>
+    <LinearLayout
+        android:layout_marginTop="170dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtNameFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="Ten"/>
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtPriceFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#FF3D00"
+            android:textStyle="bold"
+            android:text="30.000đ"/>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

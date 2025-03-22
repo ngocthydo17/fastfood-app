@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">doanthucan</string>
+    <string name="nav_menu_op">Open navigation drawer</string>
+    <string name="nav_menu_cl">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_fragment">HomeFragmentActivity</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="title_dashboard">Thông báo</string>
+
+    <string name="title_activity_main_fragment">MainFragmentActivity</string>
+    <string name="see_more">see_more</string>
+    <string name="your_favorites_meal_here">Your Favorites Meal Here</string>
+    <string name="search_your_favourite_recipe">Search your favourite Recipe</string>
+    <string name="cook_like_a_pro_with_nour_expertly_crafted_recipes">cook_like_a_pro_with_nour_expertly_crafted_recipes</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="productfragment">Sản phẩm</string>
+</resources>

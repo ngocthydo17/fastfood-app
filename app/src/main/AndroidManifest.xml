@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Doanthucan"
+        tools:targetApi="31">
+        <activity
+            android:name=".xemhoadonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HoadonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FavoriteActivity"
+            android:exported="false"
+            android:label="@null" />
+        <activity
+            android:name=".ViewAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DTActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainFragmentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main_fragment" />
+        <activity
+            android:name=".AddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddAdressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThanhToanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GiohangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AddataActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LienheActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".TiecSinhNhatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonHangLonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaanhinhchaoActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".DiaChiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Map2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Map1Activity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBA9O-WvshIO5aVaRZo_71qVe3-j99I90A" />
+    </application>
+
+</manifest>

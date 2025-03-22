@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="138dp"
+        android:gravity="center"
+        android:text="F'Star xin chào !"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="290dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="22dp"
+        android:text="Tài khoản"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLogIn" />
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="290dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="5dp"
+        android:text="Mật khẩu"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtLogin" />
+
+    <EditText
+        android:id="@+id/edtLogin"
+        android:layout_width="290dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/bogoc_1"
+        android:drawablePadding="5dp"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtLogIn" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputPassDK"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="123dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLogIn">
+
+        <EditText
+            android:id="@+id/edtPass"
+            android:layout_width="290dp"
+            android:layout_height="53dp"
+            android:background="@drawable/bogoc_1"
+            android:drawablePadding="5dp"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtLogIn" />
+
+        <ImageButton
+            android:id="@+id/btnShowPassDK"
+            android:layout_width="3dp"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:id="@+id/txtInputPassDK"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_marginTop="127dp"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/txtLogIn">-->
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/edtPass"-->
+    <!--            android:layout_width="310dp"-->
+    <!--            android:layout_height="53dp"-->
+    <!--            android:layout_marginTop="115dp"-->
+    <!--            android:background="@drawable/bogoc_1"-->
+    <!--            android:drawablePadding="5dp"-->
+    <!--            android:inputType="textPassword"-->
+    <!--            android:textSize="15sp"-->
+    <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--            app:layout_constraintRight_toRightOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/txtLogIn" />-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/btnShowPassDK"-->
+    <!--            android:layout_width="3dp"-->
+    <!--            android:layout_height="wrap_content" />-->
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <Button
+        android:id="@+id/btnDangnhap"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#FD0000"
+        android:text="Đăng Nhập"
+        android:textColor="#FEFEFE"
+        android:textSize="25dp"
+        app:cornerRadius="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputPassDK" />
+
+    <Button
+        android:id="@+id/btnDangky"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FDD632"
+        android:text="Đăng kí ngay"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDangnhap" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="148dp"
+        android:layout_height="161dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Bạn chưa có tài khoản?"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDangnhap" />
+
+    <TextView
+        android:id="@+id/csmk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Quên mật khẩu "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtInputPassDK" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="#FC0000"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnbackCPass"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#FD0000"
+            android:drawableLeft="@drawable/ic_back"
+            android:fontFamily="@fonts/montserrat"
+            android:text="Back"
+            android:textColor="#FC0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/avatar_profile_user" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@fonts/montserrat"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btnUDCT"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_user2"
+            android:drawableLeft="@drawable/ic_uudai"
+            android:drawableRight="@drawable/ic_next"
+            android:drawablePadding="10dp"
+            android:gravity="center|start"
+            android:paddingStart="23dp"
+            android:paddingEnd="23dp"
+            android:text="Danh sách yêu thích"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnDSDH"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/bg_user2"
+            android:drawableLeft="@drawable/ic_danhsach"
+            android:drawableRight="@drawable/ic_next"
+            android:drawablePadding="10dp"
+            android:gravity="center|start"
+            android:paddingStart="23dp"
+            android:paddingEnd="23dp"
+            android:text="Lịch sử mua hàng"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp" />
+
+
+        <Button
+            android:id="@+id/btnCHCT"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:backgroundTint="#F4F4F4"
+            android:drawableLeft="@drawable/ic_storefront"
+            android:drawableRight="@drawable/ic_next"
+            android:text="Cửa hàng của chúng tôi"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp"
+            app:strokeColor="#CDCBCB"
+            app:strokeWidth="3sp" />
+
+        <Button
+            android:id="@+id/btnHTLH"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="#F4F4F4"
+            android:drawableLeft="@drawable/ic_headphone"
+            android:drawableRight="@drawable/ic_next"
+            android:text="Hỗ trợ - liên hệ "
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp"
+            app:strokeColor="#CDCBCB"
+            app:strokeWidth="3sp" />
+
+        <TextView
+            android:id="@+id/btnCSTK"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/bg_user2"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawableRight="@drawable/ic_next"
+            android:drawablePadding="10dp"
+            android:gravity="center|start"
+            android:paddingStart="23dp"
+            android:paddingEnd="23dp"
+            android:text="Thông tin tài khoản"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDangXuat"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FED502"
+                android:text="Đăng Xuất"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btnXoaTK"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginRight="18dp"
+                android:backgroundTint="#FED502"
+                android:text="Xoá tài khoản"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

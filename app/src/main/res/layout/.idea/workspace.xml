@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd701b27-32e9-45c7-a3af-f4884115f2ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../androidTest/java/com/example/doanthucan/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/MaanhinhchaoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/MainActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/RegisterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/User2Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/UserInfoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/adapter/BestSellerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/adapter/SanPhamAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/model/BestSeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/doanthucan/model/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/slide_in_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/slide_out_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/anhlogo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/avatar_profile_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/banner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/baseline_arrow_back_ios_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/baseline_brightness_5_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/bogoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/bogoc_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/bogoc_1_kovien.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/bogoc_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/button_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/cuahang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/donhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_calender.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_danhsach.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_dropdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_eye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_fastfood.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_headphone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_key.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_key_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_next.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_shopping_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_store.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_uudai.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/imagegallery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/khung.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/khuyenmai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/miygapesto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/miyhaisan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/miyhaisantieuden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/miythanhcua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/rounddialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/toprounddialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/usermail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/username.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/userphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_maanhinhchao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_user2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_user_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_userpass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itembestseller.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/items.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/font_cent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/java/com/example/doanthucan/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="2duVLyz0qgHXGbAqgjlPeS3cfhG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "E:/Mobile/doanthucan/doanthucan/doanthucan/doanthucan/doanthucan/app/src/main/res/layout"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd701b27-32e9-45c7-a3af-f4884115f2ea" name="Changes" comment="" />
+      <created>1710857897554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710857897554</updated>
+    </task>
+    <servers />
+  </component>
+</project>
