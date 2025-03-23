@@ -30,7 +30,6 @@ FastFood App is a modern and responsive Android application designed for seamles
 
 
 ## 🏆 Contact
-- **Tester:** *Do Thi Ngoc Thy*  
 - **Email:** *ngocthydo17@gmail.com*  
 - **GitHub Issues:** [Report a Bug](https://github.com/ngocthydo17/manual-test-wedding-booking/issues)  
 
